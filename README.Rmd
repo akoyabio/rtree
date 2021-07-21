@@ -18,7 +18,7 @@ implemented by the
 library.
 
 `rtree` was inspired by 
-[this](http://gallery.rcpp.org/articles/Rtree-examples/)
+[this](https://gallery.rcpp.org/articles/Rtree-examples/)
 example in the Rcpp gallery.
 
 ## Installation

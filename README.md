@@ -8,7 +8,7 @@ geometry](https://www.boost.org/doc/libs/1_75_0/libs/geometry/doc/html/geometry/
 library.
 
 `rtree` was inspired by
-[this](http://gallery.rcpp.org/articles/Rtree-examples/) example in the
+[this](https://gallery.rcpp.org/articles/Rtree-examples/) example in the
 Rcpp gallery.
 
 ## Installation
@@ -23,7 +23,7 @@ install.packages("rtree")
 
 ``` r
 # install.packages("remotes") # Install if needed
-remotes::install_github("akoyabio/rtree")
+remotes::install_github("hunzikp/rtree")
 ```
 
 Note: As of version 0.2.0, `rtree` requires R version 4.0.0 or higher.
@@ -182,8 +182,8 @@ print(bm.wd)
 ```
 
     ##    test replications elapsed relative
-    ## 2 rgeos           10    4.67   116.75
-    ## 1 rtree           10    0.04     1.00
+    ## 2 rgeos           10    5.06  168.667
+    ## 1 rtree           10    0.03    1.000
 
 ``` r
 ## Plot
@@ -234,8 +234,8 @@ print(bm.knn)
 ```
 
     ##     test replications elapsed relative
-    ## 2 kdtree           10    1.45    1.667
-    ## 1  rtree           10    0.87    1.000
+    ## 2 kdtree           10    1.50    1.685
+    ## 1  rtree           10    0.89    1.000
 
 ``` r
 ## Plot

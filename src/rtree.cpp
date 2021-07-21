@@ -3,7 +3,7 @@
 // Enable C++11 via this plugin to suppress 'long long' errors
 // [[Rcpp::plugins("cpp11")]]
 
-// Some of this code based on http://gallery.rcpp.org/articles/Rtree-examples/
+// Some of this code based on https://gallery.rcpp.org/articles/Rtree-examples/
 
 #include <vector>
 #include <Rcpp.h>
