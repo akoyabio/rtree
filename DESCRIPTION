@@ -7,6 +7,7 @@ Authors@R: c(
   person("Kent", "Johnson", email="kjohnson@akoyabio.com", role=c("aut", "cre")))
 Description: The 'rtree' package implements fast Euclidean within-distance checks 
     and 'KNN' calculations for points in 2D space.
+Language: en-US
 License: GPL-2
 Encoding: UTF-8
 Depends: R (>= 4.0.0)

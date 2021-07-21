@@ -2,26 +2,26 @@ This is the first submission of this package.
 
 ## Test environments
 
-* local Windows 10 install, R 4.0.5
+* local Windows 10 install, R 4.1
 * GitHub via Actions:
-  * Mac OS X 10.15.7, R 4.0.5
-  * Ubuntu 20.04.2 LTS, R 4.05
+  * Mac OS X 10.15.7, R 4.1
+  * Ubuntu 20.04.2 LTS, R 4.1
   * Ubuntu 20.04.2 LTS, R devel
   * Microsoft Windows Server 2019 10.0.17763 Datacenter
 * R-Hub
-  * Windows Server 2008 R2 SP1, R 4.0.5, 32/64 bit
+  * Windows Server 2008 R2 SP1, R 4.1, 32/64 bit
   * Windows Server 2008 R2 SP1, R-devel, 32/64 bit
-  * buntu Linux 20.04.1 LTS, R-release, GCC
+  * Ubuntu Linux 20.04.1 LTS, R-release, GCC
   * Fedora Linux, R-devel, clang, gfortran
   * Debian Linux, R-devel, GCC ASAN/UBSAN
 * win-builder
-  * R version 4.1.0 beta (2021-05-06 r80268) using platform x86_64-w64-mingw32 (64-bit)
+  * R version 4.1.0 (2021-05-18) using platform x86_64-w64-mingw32 (64-bit)
 
 ## R CMD check results
 
 There were no ERRORs, WARNINGs or NOTEs on Mac OS and Ubuntu.
 
-### On GitHub Windows there is one WARNING due to compiler warnings (see below).
+### On Windows there is one WARNING due to compiler warnings.
 
 These warnings come from the Boost headers. The Boost maintainers have evaluated them, consider them false positives, and used #pragmas to disable the warnings; see here:
 https://github.com/boostorg/container/commit/6504af87080ec0f5193e0cd623795dedc4a5d9c3
