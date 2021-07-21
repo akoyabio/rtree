@@ -1,6 +1,7 @@
 ^.*\.Rproj$
-^\.Rproj\.user$
-^README\.Rmd$
 ^\.github$
+^\.Rproj\.user$
 ^cran-comments.md$
 ^CRAN-RELEASE$
+^README\.Rmd$
+^tools$
